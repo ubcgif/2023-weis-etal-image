@@ -43,10 +43,10 @@ project:
 site:
   template: article-theme
   actions:
-    - title: slides
-      url: abstract/presentation/weis_2023.pdf
+    - title: Slides
+      url: presentation/weis_2023.pdf
       static: true
-    - title: poster
-      url: abstract/presentation/weis_2023_eposter.png
-      static: true
+    # - title: Poster
+    #   url: presentation/weis_2023_eposter.png
+    #   static: true
   # domains: []
