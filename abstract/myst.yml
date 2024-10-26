@@ -2,7 +2,7 @@ version: 1
 project:
   id: ubcgif-2023-weis-etal-image
   title: Comparison of magnetic vector inversion with sparse norm susceptibility inversion accounting for demagnetization
-  description: Talk presented at 2023 Third International Meeting for Applied Geoscience & Energy Expanded Abstracts 
+  description: Talk presented at 2023 Third International Meeting for Applied Geoscience & Energy Expanded Abstracts
   authors:
     - name: John M. Weis
       email: jweis@eoas.ubc.ca
@@ -43,10 +43,10 @@ project:
 site:
   template: article-theme
   actions:
-    - title: Slides
+    - title: pdf
       url: presentation/weis_2023.pdf
       static: true
-    # - title: Poster
-    #   url: presentation/weis_2023_eposter.png
-    #   static: true
+    - title: Poster
+      url: presentation/JW_SEGImage.pdf
+      static: true
   # domains: []
