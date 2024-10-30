@@ -1,53 +1,52 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2023-weis-etal-image
+  title: Comparison of magnetic vector inversion with sparse norm susceptibility inversion accounting for demagnetization
+  description: Talk presented at 2023 Third International Meeting for Applied Geoscience & Energy Expanded Abstracts
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
+    - name: John M. Weis
+      email: jweis@eoas.ubc.ca
+      corresponding: true
+      orcid: 0009-0003-6820-064X
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
   # banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: IMAGE
+    url: https://library.seg.org/doi/10.1190/image2023-3911157.1
   # license: CC-BY-4.0
   # open_access: true
-  # doi: DOI
-  # date: DATE OF PRESENTATION
+  doi: https://doi.org/10.1190/image2023-3911157.1
+  date: 2023/12/14
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
   # github:
   # bibliography: []
-  # keywords:
-  #   - Controlled source electromagnetics (CSEM)
-  #   - Downhole methods
-  #   - Numerical modelling
-  #   - Electrical properties
-  #   - Magnetic properties
+  keywords:
+    - potential fields
+    - magnetics
+    - inversion
+    - self-demagnetization
+    - mineral exploration
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: pdf
+      url: presentation/weis_2023.pdf
+      static: true
+    - title: Poster
+      url: presentation/JW_SEGImage.pdf
+      static: true
   # domains: []
